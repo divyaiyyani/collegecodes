@@ -1,3 +1,5 @@
+/* Substitution Cipher which does both encryption and decryption using ASCII values of characters. */
+
 import java.util.*;
 import java.io.*;
 
