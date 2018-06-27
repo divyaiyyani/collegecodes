@@ -11,9 +11,12 @@ void main()
       scanf("%d",&r);
 
 	if((k+r+1)>pow(2,r))
-	   printf("Hamming code cannot be created\n");
+	   {
+             printf("Hamming code cannot be created\n");
+             exit(0);
+             }
 	else
-	   printf("Hamming code can be created\n");
+           printf("Hamming code can be created\n");
 
 	printf("Enter the data:\n");
 	 for(i=1;i<=11;i++)
